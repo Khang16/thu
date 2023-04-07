@@ -54,9 +54,7 @@ class _HomePageState extends State<HomePage> {
                 /* 
                   inputFormatters là một thuộc tính của các widget như TextField hoặc TextFormField
                   được sử dụng để giới hạn và định dạng đầu vào của người dùng.
-
                   -FilteringTextInputFormatter.digitsOnly sử dụng để giới hạn đầu vapf của user chit chứa các số tuwd 0->9
-
                 */
                 onChanged: (value) {
                   _inputtedPrice = int.tryParse(value);
